@@ -12,9 +12,9 @@ const Layout = () => {
             />
             </Link></li>
           </ul>
-          <ul>
+          <ul className="header-btn">
             <li><Link to="/Login" className="link1">Login</Link></li>
-            <li><Link to="/Signup" className="link1">Rigister Now</Link></li>
+            <li><Link to="/Signup" className="link1">Rigister</Link></li>
           </ul>
         </nav>
         <Outlet />

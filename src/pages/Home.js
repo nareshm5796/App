@@ -1,19 +1,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import LeftSection from '../Components/LeftSection';
+import RightSection from '../Components/RightSection';
 
 const Home = () => {
     
-    return <div className='fluid-container'>
-            <div className='container'>
-                <div className='row '>
-                <div className='col-6'>
-                        <h1>left</h1>
-                </div>
-                <div className='col-6'>
-                        <h1>right</h1>
-                </div>
-                </div>
-            </div>
+    return <div>
+        <div class="body d-flex align-items-start flex-column" style={{height: "92vh"}}>
+                <div class="mb-auto p-2 bd-highlight">
+                        <div>
+                                <LeftSection/>
+                        </div>
+                        <div>
+                                <RightSection/>
+                        </div>
+                        </div>
+                <div class="p-2 bd-highlight" style={{height: "10vh"}}>Footer</div>
+           </div>
         </div>
   };
   
