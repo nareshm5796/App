@@ -1,6 +1,9 @@
 const RightSection = () =>{
-    return <div>
-        <h1>helo Right</h1>
+    return <div className="home-container">
+        <div class='d-flex justify-content-center'>
+            
+        </div>
+        
     </div>
 };
 
