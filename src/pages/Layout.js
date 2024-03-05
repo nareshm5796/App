@@ -14,7 +14,7 @@ const Layout = () => {
           </ul>
           <ul className="header-btn">
             <li><Link to="/Login" className="link1">Login</Link></li>
-            <li><Link to="/Signup" className="link1">Rigister</Link></li>
+            <li><Link to="/Signup" className="link1">Register</Link></li>
           </ul>
         </nav>
         <Outlet />

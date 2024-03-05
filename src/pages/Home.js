@@ -5,7 +5,7 @@ import RightSection from '../Components/RightSection';
 const Home = () => {
     
     return <div>
-        <div class="body d-flex align-items-start flex-column" style={{height: "92vh"}}>
+        <div class="d-flex flex-column w-100" style={{height: "90vh"}}>
                 <div class="mb-auto p-2 bd-highlight">
                         <div>
                                 <LeftSection/>
@@ -14,7 +14,7 @@ const Home = () => {
                                 <RightSection/>
                         </div>
                         </div>
-                <div class="p-2 bd-highlight" style={{height: "10vh"}}>Footer</div>
+                <footer class='text-center'>copy Right</footer>
            </div>
         </div>
   };

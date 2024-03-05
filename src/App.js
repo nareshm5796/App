@@ -12,7 +12,7 @@ import NoPage from "./pages/NoPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <div className="body"><BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
@@ -22,7 +22,8 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+  </div>
+
   );
 }
-
 export default App;

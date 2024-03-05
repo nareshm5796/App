@@ -1,13 +1,14 @@
 .body{
-  background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-color: #F6F5F5;
+  /* background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
         background-size: cover; 
         background-position: center; 
-        background-repeat: no-repeat; 
+        background-repeat: no-repeat;  */
 }
 nav{
   display: flex;
   justify-content: space-between;
-  background-color: rgb(0, 4, 4);
+  background-color: rgb(5, 119, 123);
   border-bottom: 1px solid gray;
 }
 nav>ul{
@@ -33,14 +34,14 @@ nav>ul{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(35, 35, 200);
+  background-color: #87A922;
   border-radius: 5px;
   transition:transform 0.0s ease;
   text-align: center;
 }
 
 .header-btn>li:hover{
-  background-color: rgb(103, 110, 8); 
+  background-color: #124076; 
   transform: scale(1.02);
 }
 
@@ -51,12 +52,15 @@ a.link1{
   padding: 0px 5px;
 }
 
-
-
-.Login-form{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
+
+
 
