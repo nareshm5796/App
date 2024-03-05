@@ -12,7 +12,7 @@ const Login = () => {
             </div>
             <button class="btn btn-success btn-sm" type="submit">LogIn</button>
         </form>
-        <footer class='text-center'>copy Right</footer>
+        <footer class='text-center'>@copy Right</footer>
     </div>
   };
   
