@@ -1,5 +1,5 @@
 const Login = () => {
-    return <div className="d-flex align-items-center flex-column mt-5" style={{height: "85vh"}}>
+    return <div className="d-flex align-items-center flex-column mt-5" style={{height: "90vh"}}>
         <h4>
             LogIn
         </h4>

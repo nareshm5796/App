@@ -10,6 +10,9 @@ nav{
   justify-content: space-between;
   background-color: rgb(5, 119, 123);
   border-bottom: 1px solid gray;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 nav>ul{
   display: flex;
@@ -88,7 +91,17 @@ a.link1{
   padding: 0px 5px;
 }
 
-footer {
+.home-footer{
+  background-color: rgb(5, 119, 123);
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+footer{
   background-color: rgb(5, 119, 123);
   color: white;
   padding: 10px 0;
@@ -96,8 +109,8 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 60px;
 }
-
 .home-container{
   width: 100%;
   height: 100%;
@@ -108,7 +121,7 @@ footer {
 }
 
 .l-home{
-  background-image: url('https://i.pinimg.com/originals/ee/11/48/ee114865cf1ac2282ca7be75f1df4339.jpg');
+  background-image: url('https://images.unsplash.com/photo-1511184150666-9bb7d41a88f4?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdoaXRlJTIwJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -116,6 +129,14 @@ footer {
 
 .r-home{
   background-image: url('https://images.pexels.com/photos/4691104/pexels-photo-4691104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  border: black 2px solid;
+}
+
+.video1{
+  background-image: url('https://pixabay.com/videos/clouds-cloudscape-sky-air-1154/');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;

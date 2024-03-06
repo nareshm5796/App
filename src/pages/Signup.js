@@ -1,5 +1,5 @@
 const Signup = () => {
-    return <div className="d-flex  align-items-center  flex-column mt-5" style={{height: "85vh"}}>
+    return <div className="d-flex  align-items-center  flex-column mt-5" style={{height: "90vh"}}>
                 <div>
                         <h4>
                                 Register
@@ -9,7 +9,7 @@ const Signup = () => {
                         <input type="password" placeholder="Create Password"/>
                         <div> 
                                 <input type="checkbox"/>
-                                <a href="#">I Agree Terms and Conditions</a>
+                                <a href="http:/sdd/">I Agree Terms and Conditions</a>
                         </div>
                         <button class="btn btn-success btn-sm" type="submit">SignUp</button>
                         </form>
