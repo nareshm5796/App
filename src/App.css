@@ -13,6 +13,7 @@ nav{
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
 }
 nav>ul{
   display: flex;
@@ -56,16 +57,19 @@ nav>ul{
     color: #87A922;
     padding: 0px 10px ;  
     letter-spacing: 1px;
+
+
 }
 .description>p:nth-child(2){
   font-size: 10px;
   margin: 0px 10px;
   padding: 0px 10px;  
   letter-spacing: 1px;
-}  
 }
 
 
+
+}
 
 .header-btn>li{
   padding: 0px;
@@ -151,24 +155,52 @@ footer{
   border: 1px solid #ccc;
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(246, 41, 41, 0.1);
   padding: 10px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover{
+  transform: scale(1.08);
 }
 
 .card-image {
   width: 100%;
-  object-fit: cover;
-  
+  object-fit: cover; 
 }
 
 .card-title {
-  margin: 0 0 10px;
+  margin: 10px 0 10px;
   font-size: 1.5rem;
 }
 
 
 
+.app1 {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
 
+@media (max-width: 777px) {
+  .app1 {
+    grid-template-columns: repeat(2, 1fr); /* Adjusting to a single column layout for mobile */
+    justify-content: center; /* Centering items for better mobile readability */
+    padding: 0 10px; /* Adding some padding to the sides for better spacing */
+    grid-gap: 10px;
+  }
+  .card {
+    margin: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(234, 37, 37, 0.1);
+    padding: 5px;
+  }
+}
 
 
 
