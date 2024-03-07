@@ -155,7 +155,7 @@ footer{
   border: 1px solid #ccc;
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(246, 41, 41, 0.1);
+  box-shadow: 0 0 10px rgb(5, 5, 5);
   padding: 10px;
   transition: transform 0.2s ease;
 }
@@ -179,7 +179,7 @@ footer{
 .app1 {
   display: grid;
   grid-template-columns: repeat(3, 0fr);
-  grid-gap: 10px;
+  grid-gap: 5px;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 10px;
@@ -194,12 +194,18 @@ footer{
   }
   .card {
     margin: 0px;
-    border: 1px solid #ccc;
+    border: 0px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(234, 37, 37, 0.1);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
     padding: 5px;
   }
+}
+
+.card>img{
+    width: 100%; /* Ensures images fill their containers */
+    height: auto; /* Maintains aspect ratio of images */
+    display: block; /* Ensures proper spacing and alignment */
 }
 
 

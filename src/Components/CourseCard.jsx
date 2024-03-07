@@ -4,7 +4,7 @@ import React from 'react';
 function Item({ name, imgSrc }) {
   return (
     <div class='card' >
-      <img src={imgSrc} class="card-img-top" style={{height:"100PX"}} alt={ name + ' img is not availble'} />
+      <img src={imgSrc} class="card-img-top" style={{height:"120PX"}} alt={ name + ' img is not availble'} />
       <h3 class="card-title text-center" >{name}</h3>
     </div>
   );
