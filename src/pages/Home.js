@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LeftSection from '../Components/LeftSection';
 import RightSection from '../Components/RightSection';
+import CourseCard from '../Components/CourseCard';
 
 const Home = () => {
    
@@ -15,18 +16,13 @@ const Home = () => {
                         </div>
                 </div>
         </div>
-        <div class='fluid-container  p-1 mt-2' >
-                <div className='container ' style={{height: "60vh"}}>
-                        <video width="100%" height="100%" controls autoPlay>
-                                <source src="video1.mp4" type="video/mp4"/>
-                                Your browser does not support the video tag.
-                        </video>   
+        <div class='fluid-container  bg-info p-1 mt-2' >
+                <div className='container bg-secondary p-1 ' style={{height: "60vh"}}>
+                        <CourseCard/> 
                 </div>       
         </div>
         <div className='container' style={{height: "60vh"}}>
-                <h1>
-                        hi
-                </h1>
+                Contact Us
         </div>
         <footer class='text-center home-footer'>copy Right</footer>
         </div>

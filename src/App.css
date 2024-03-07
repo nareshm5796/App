@@ -145,3 +145,30 @@ footer{
 
 
 
+.card {
+  width: 150px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.card-image {
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.card-title {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+
