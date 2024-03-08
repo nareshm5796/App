@@ -4,9 +4,8 @@ const Login = () => {
             <form class=" d-flex align-items-center flex-column justify-content-evenly border border-white bg-white text-center rounded">
                     <h2 class='log-in font-weight-bolder' >LogIn</h2>
                 <div class='log-in w-75'>
-                    
-                    <input class='log-in' type="text" placeholder="Enter username"/>
-                    <input class='log-in' type="password" placeholder="Enter Password"/>
+                    <div class='log-in'><input type="text" placeholder="Enter username"/></div>
+                    <div class='log-in'><input type="password" placeholder="Enter Password"/></div>
                     <div class='log-in'> 
                         <a href="#1">Forget Password ?</a>
                     </div>

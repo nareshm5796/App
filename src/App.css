@@ -225,8 +225,8 @@ form{
     height: 50vh;
     box-shadow: 0 0 20px rgb(0, 109, 128);
   }
-  .log-in{
-    margin: 2px 0px;
+  input{
+    width: 150px;
   }
 }
 
@@ -262,6 +262,8 @@ input:focus {
 input:focus::-webkit-input-placeholder { /* WebKit browsers */
   color: transparent;
 }
+
+
 
 
 
