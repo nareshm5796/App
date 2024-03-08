@@ -1,19 +1,20 @@
 const Signup = () => {
-    return <div className="d-flex  align-items-center  flex-column mt-5" style={{height: "90vh"}}>
-                <div>
-                        <h4>
-                                Register
-                        </h4>
-                        <form class="d-flex flex-column p-4 border border-secondary rounded">
-                        <input type="mail" placeholder="Enter Your Mail Id"/>
-                        <input type="password" placeholder="Create Password"/>
-                        <div> 
-                                <input type="checkbox"/>
-                                <a href="http:/sdd/">I Agree Terms and Conditions</a>
-                        </div>
-                        <button class="btn btn-success btn-sm" type="submit">SignUp</button>
-                        </form>
-                </div>
+    return <div className="d-flex  align-items-center justify-content-center flex-column mt-5" style={{height: "90vh"}}>
+                <form class=" d-flex align-items-center flex-column justify-content-evenly border border-white bg-white text-center rounded">
+                    <h2 class='log-in font-weight-bolder' >Register</h2>
+                <div class='log-in w-75'>
+                    
+                    <input class='log-in' type="text" placeholder="Enter username"/>
+                    <input class='log-in' type="password" placeholder="Enter Password"/>
+                    <input class='log-in' type="password" placeholder="Conform Password"/>
+                    <div class='log-in'> 
+                        <input type='checkbox'></input><a href="#1"> Terms and Conditions</a>
+                    </div>
+                    <div class='log-in'>
+                        <button  class='w-75 btn btn-info' type="submit">Submit</button>
+                    </div>
+                </div> 
+            </form>
                 <footer class='text-center'>copy Right</footer>
     </div>
     

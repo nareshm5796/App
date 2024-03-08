@@ -1,18 +1,22 @@
 const Login = () => {
-    return <div className="d-flex align-items-center flex-column mt-5" style={{height: "90vh"}}>
-        <h4>
-            LogIn
-        </h4>
-        <form class="d-flex flex-column p-4 border border-secondary rounded">
-            <input type="text" placeholder="Enter username"/>
-            <input type="password" placeholder="Enter Password"/>
-            <div> 
-                <input type="checkbox"/>
-                <a href="#1">Terms and Conditions</a>
-            </div>
-            <button class="btn btn-success btn-sm" type="submit">LogIn</button>
-        </form>
-        <footer class='text-center'>@copy Right</footer>
+    return <div className="d-flex align-items-center flex-column justify-content-center mt-4" style={{height: "92vh"}}>
+           
+            <form class=" d-flex align-items-center flex-column justify-content-evenly border border-white bg-white text-center rounded">
+                    <h2 class='log-in font-weight-bolder' >LogIn</h2>
+                <div class='log-in w-75'>
+                    
+                    <input class='log-in' type="text" placeholder="Enter username"/>
+                    <input class='log-in' type="password" placeholder="Enter Password"/>
+                    <div class='log-in'> 
+                        <a href="#1">Forget Password ?</a>
+                    </div>
+                    <div class='log-in'>
+                        <button  class='w-75 btn btn-info' type="submit">LogIn</button>
+                    </div>
+                    
+                </div> 
+            </form>
+            <footer class='text-center'>@copy Right</footer>
     </div>
   };
   
