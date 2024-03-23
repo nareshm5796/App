@@ -3,6 +3,7 @@ import LeftSection from '../Components/LeftSection';
 import RightSection from '../Components/RightSection';
 import CourseCard from '../Components/CourseCard';
 import Component from '../Components/Component';
+import Contact from '../Components/Contact';
 
 const Home = () => {
    
@@ -28,8 +29,8 @@ const Home = () => {
                 <Component/>
         </div>
 
-        <div className='container' style={{height: "60vh"}}>
-                Contact Us
+        <div className='container' >
+                <Contact/>
         </div>
 
         
