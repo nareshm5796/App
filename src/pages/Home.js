@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import LeftSection from '../Components/LeftSection';
 import RightSection from '../Components/RightSection';
 import CourseCard from '../Components/CourseCard';
+import Component from '../Components/Component';
 
 const Home = () => {
    
@@ -22,13 +23,30 @@ const Home = () => {
                         <CourseCard/> 
                 </div>       
         </div>
+        {/* books-------------------------------------- */}
+        <div className='fluid-container p-4  mt-2 border border-secondary'>
+                <Component/>
+        </div>
+
         <div className='container' style={{height: "60vh"}}>
                 Contact Us
         </div>
+
+        
+
         <footer class='text-center home-footer'>copy Right</footer>
-        </div>
+
+</div>
+        
   };
   
   export default Home;
+
+
+
+    
+  
+
+
 
 
